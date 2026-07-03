@@ -19,6 +19,10 @@ git config --list <br>
 13.find the link that start with --> git remote add origin --> copy that whole line <br>
 14.open your vs code --> open terminal (check the menu the option terminal --> new terminal) --> first check last word(ex./news-website>)<br>
 15.paste the copy link(repo link) --> close the terminal<br>
-16.create files,edit files,delete cmd one by one:<br>
-git add .<br>
-git commit -m "give a s"
+16.create files, edit files, delete files into your folder
+17.open terminal and give below cmd one by one:
+git add .
+git commit -m "give a msg"
+git push origin main (main --> branch name {check your working brach first and after tha t write the branch name})
+18.repeat the cycle
+edit files --> git add . --> git commit -m "give a msg" --> git push origin main --> edit files
